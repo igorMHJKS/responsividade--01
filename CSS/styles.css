@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  div {
+    background-color: #ff000022;
+    width: 100%;
+  
+    height: 50px;
+    /* Aplicar margin em todos os lados igualmente */
+    /* margin: 10px; */
+  
+    /* Aplicar margin no vertical e horizontal */
+    /* margin: 100px 200px; */
+  
+    /* Aplicar margin no top, right, bottom, left */
+    /* margin: 10px 20px 30px 40px; */
+  
+    /* Aplicar margin no top, horizontal e bottom */
+    /* margin: 10px 30px 40px; */
+  
+    /* margin: 0 0 0 10px; */
+  
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+  
+    padding: 10px;
+    /* padding: 10px 20px; */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding: 10px 30px 40px; */
+    /* padding: 0 0 0 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+  
+    border: 2px solid blue;
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: red; */
+    border-radius: 5px;
+    font-size: 30px;
+  }
+  html {
+    font-size: 12px;
+  }
+  h1 {
+    /* font-size: 1em; */
+    font-size: 1rem;
+    /*
+    em
+    rem
+    %
+    vh
+    vw 
+    */
+  }
+  main {
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+  }
